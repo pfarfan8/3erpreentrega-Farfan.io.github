@@ -1,0 +1,26 @@
+:root{
+    --bgcolor: #1a16f1;
+    --color1: #e2e2e2;
+    --color2: #ee3333;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+.container{
+    display: grid;
+    background-color: var(--bgcolor);
+
+}
+
+main{
+    background-color: var(--color1);
+    margin: 1rem;
+    margin-left: 0;
+    border-radius: 2rem;
+    padding: 2rem;
+}
